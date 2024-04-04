@@ -724,11 +724,7 @@ HA对：18个、在一个节点中^1^</block>
   <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">从Cloud Volumes ONTAP 9.13.1.开始的BlueXP</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
   <block id="b8669dd4be6e14a3f0a4fcc02dda79a3" category="section-title">9.14.0P2 (2024年4月1日)</block>
-  <block id="8a2e35e048f2fec22cf01ac1e91ac6e6" category="inline-link">从 URL 上提供的映像升级</block>
-  <block id="17080ce14b30f5e8925e51145d5b1032" category="paragraph">9.14.0P2修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。此修补程序仅适用于手动升级。请参见<block ref="616322dd48f91de2669b4ad12a0e820d" category="inline-link-rx"></block>。</block>
   <block id="ce5d0c77f167b881391469fc27895727" category="inline-link-macro">查看P2修补程序中已修复的错误列表</block>
   <block id="d01dcd7dd0571bc5938e104d16f1b241" category="paragraph"><block ref="35ccd464ef6dcc704dd5444888751abc" category="inline-link-macro-rx"></block> （需要登录 NetApp 支持站点）。</block>
-  <block id="8c9e25527d8d001ea4984375636533f6" category="paragraph">这将是此版本的最后一个修补程序。我们建议您继续将Cloud Volumes ONTAP 9.14.0升级到9.14.1。</block>
-  <block id="3f93d29b3f8dc957c8b9ced853857b76" category="inline-link">Cloud Volumes ONTAP 9.14.1发行说明</block>
-  <block id="04288d19cfed9e5f660c0fbfee97b713" category="paragraph"><block ref="04288d19cfed9e5f660c0fbfee97b713" category="inline-link-rx"></block></block>
+  <block id="6a9fe68abfa73dffd725487a9c628441" category="paragraph">9.14.0P2修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
 </blocks>
