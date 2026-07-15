@@ -18,6 +18,7 @@ Azure 支持多种 Cloud Volumes ONTAP 配置。
 
 
 
+[[supported-configurations-by-license]]
 == 按许可证支持的配置
 
 Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA ）节点对提供，以实现容错和无中断运行。
@@ -26,6 +27,7 @@ Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA �
 
 
 
+[[single-node-systems]]
 === 单节点系统
 
 在 Azure 中将 Cloud Volumes ONTAP 部署为单节点系统时，您可以从以下配置中进行选择：
@@ -152,6 +154,7 @@ Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA �
 
 
 
+[[ha-pairs]]
 === HA 对
 
 在 Azure 中将 Cloud Volumes ONTAP 部署为 HA 对时，您可以从以下配置中进行选择。
@@ -308,12 +311,14 @@ Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA �
 
 
 
+[[supported-disk-sizes]]
 == 支持的磁盘大小
 
 在 Azure 中，一个聚合最多可以包含 12 个类型和大小相同的磁盘。
 
 
 
+[[single-node-systems]]
 === 单节点系统
 
 单节点系统使用 Azure 受管磁盘。支持以下磁盘大小：
@@ -356,6 +361,7 @@ Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA �
 |===
 
 
+[[ha-pairs]]
 === HA 对
 
 HA对使用Azure托管磁盘。支持以下磁盘类型和大小。

@@ -20,6 +20,7 @@ Cloud Volumes ONTAP 9.14.0包含新的增强功能。
 
 
 
+[[9-14-0-p2-1-april-2024]]
 == 9.14.0P2 (2024年4月1日)
 
 9.14.0P2修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。
@@ -28,6 +29,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-14-0-p1-10-november-2023]]
 == 9.14.0P1 (2023年11月10日)
 
 如果您的Connector运行的是3.9.27或更高版本、则9.14.0 P1修补程序现在可用于适用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。
@@ -36,12 +38,14 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-14-0-29-september-2023]]
 == 9.14.02023年9月29日)
 
 Cloud Volumes ONTAP 9.14.0正式发布(GA)版本现已在AWS、Azure和Google Cloud中推出。此版本包含以下新增功能和增强功能：
 
 
 
+[[snapmirror-traffic-segregation-in-azure]]
 === Azure中的SnapMirror流量隔离
 
 现在、您可以将SnapMirror复制流量与数据和管理流量隔离。通过这一新功能、您可以利用不可路由到用于数据和管理流量的现有子网的额外子网来隔离SnapMirror复制流量。
@@ -50,12 +54,14 @@ Cloud Volumes ONTAP 9.14.0正式发布(GA)版本现已在AWS、Azure和Google Cl
 
 
 
+[[upgrade-notes]]
 == 升级说明
 
 通读这些注释、了解有关升级到此版本的更多信息。
 
 
 
+[[how-to-upgrade]]
 === 如何升级
 
 必须从BlueXP完成Cloud Volumes ONTAP 升级。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。
@@ -64,12 +70,14 @@ link:http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap
 
 
 
+[[supported-upgrade-path]]
 === 支持的升级路径
 
 您可以从9.13.1.版升级到Cloud Volumes ONTAP 9.14.0。BlueXP将提示您将符合条件的Cloud Volumes ONTAP 系统升级到此版本。
 
 
 
+[[required-version-of-the-connector]]
 === 所需版本的Connector
 
 BlueXP连接器必须运行3.9.27或更高版本、才能部署新的Cloud Volumes ONTAP 9.14.0系统并将现有系统升级到9.14.0。
@@ -79,6 +87,7 @@ TIP: 默认情况下，连接器会自动升级，因此您应运行最新版本
 
 
 
+[[downtime]]
 === 停机
 
 * 升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。
@@ -87,6 +96,7 @@ TIP: 默认情况下，连接器会自动升级，因此您应运行最新版本
 
 
 
+[[c4-m4-and-r4-instances-no-longer-supported]]
 === 不再支持c4、m4和r4实例
 
 在AWS中、Cloud Volumes ONTAP 不再支持C4、M4和M4 EC2实例类型。如果现有系统运行的是C4、M4或r4实例类型、则必须更改为c5、M5或R5实例系列中的实例类型。只有在更改实例类型后才能升级到此版本。
